@@ -19,7 +19,7 @@ namespace classes
 
     public string CompanyName {get;}
 
-    public List<Employee> Employees {get; set;}
+    public List<Employee> Employees = new List<Employee>();
 
     public Company (string name, DateTime createdOn)
     {
